@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: burlywood;
+    align-content: center;
+}
+
+.keyBox {
+    height: 100px;
+    width: 100px;
+    background-color: darkgrey;
+
+}
+
+.content{
+    display: inline-grid;
+    margin-top: 300px;
+    margin-left: 40px;
+    grid-template-columns: repeat(5, 300px);
+    gap: 10px;
+}
+
+.keyBox:hover{
+    border: 2px solid blue;
+
+}
+
+.playing{
+ color : "red";
+}
