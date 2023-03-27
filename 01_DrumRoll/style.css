@@ -6,31 +6,35 @@
     border: 0;
 }
 
-body{
-    background-color: burlywood;
-    align-content: center;
-}
-
 .keyBox {
     height: 100px;
     width: 100px;
     background-color: darkgrey;
+    padding-right: 0px;
+    margin-right: 0px;
 
 }
 
 .content{
+    height: 100vh;
+    width: max-content;
+   
     display: inline-grid;
-    margin-top: 300px;
-    margin-left: 40px;
+    margin-left: 13%;
+    margin-right: 12%;
+
     grid-template-columns: repeat(5, 300px);
     gap: 10px;
+
+    background-color: black;
+    background-image: url(./concert-clipart-rock-drummer-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
-.keyBox:hover{
-    border: 2px solid blue;
-
+.text{
+    align-content: center;
 }
 
-.playing{
- color : "red";
-}
+
